@@ -7,6 +7,7 @@ def ten(n):
         n, remainder = divmod(n, 3)
         ternary = str(remainder) + ternary
     return ternary
+
 def main():
 
     a = int(input("Введите значение a (десятичное): "))
@@ -14,3 +15,14 @@ def main():
     c = int(input("Введите значение c (десятичное): "))
 
    
+    x = a * b + 4 * c
+
+
+    x_ternary = ten(x)
+
+
+    print(f"Результат в троичной системе: {x_ternary}")
+
+if __name__ == "__main__":
+    main()
+
