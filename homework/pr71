@@ -1,1 +1,9 @@
-
+def ten(n):
+    """Преобразование десятичного числа в троичное."""
+    if n == 0:
+        return "0"
+    ternary = ''
+    while n:
+        n, remainder = divmod(n, 3)
+        ternary = str(remainder) + ternary
+    return ternary
