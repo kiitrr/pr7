@@ -7,3 +7,10 @@ def ten(n):
         n, remainder = divmod(n, 3)
         ternary = str(remainder) + ternary
     return ternary
+def main():
+
+    a = int(input("Введите значение a (десятичное): "))
+    b = int(input("Введите значение b (десятичное): "))
+    c = int(input("Введите значение c (десятичное): "))
+
+   
