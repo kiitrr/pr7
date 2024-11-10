@@ -11,3 +11,12 @@ while True:
     else:
         print("Ошибка: введено некорректное число. Пожалуйста, введите положительное целое число.")
 
+
+binary_number = bin(decimal_number)[2:] 
+
+
+octal_number = oct(decimal_number)[2:]  
+
+
+print(f"Число {decimal_number} в двоичной системе: {binary_number}")
+print(f"Число {decimal_number} в восьмеричной системе: {octal_number}")
