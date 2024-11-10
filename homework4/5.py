@@ -8,3 +8,7 @@ def number_input(prompt):
             return float(input(prompt))
         except ValueError:
             print("Ошибка: введите числовое значение!")
+
+a = number_input("Введите значение a: ")
+b = number_input("Введите значение b: ")
+c = number_input("Введите значение c: ")
