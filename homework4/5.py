@@ -12,3 +12,8 @@ def number_input(prompt):
 a = number_input("Введите значение a: ")
 b = number_input("Введите значение b: ")
 c = number_input("Введите значение c: ")
+
+x = solve(a, b, c)
+print(f"Решение уравнения: x = {x}")
+
+
